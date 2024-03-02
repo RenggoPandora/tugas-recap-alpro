@@ -5,12 +5,13 @@ int main() {
     int v1,t2;
     int s2,v2;
 
-    scanf ("%d", &s1);
-    scanf ("%d", &t1);
-    scanf ("%d", &v1);
-    scanf ("%d", &t2);
-    scanf ("%d", &s2);
-    scanf ("%d", &v2);
+    printf ("Masukkan nilai jarak dan waktu = ");
+    scanf ("%d %d", &s1, &t1);
+    printf ("Masukkan nilai kecepatan dan waktu = ");
+    scanf ("%d %d", &v1, &t2);
+    printf ("Masukkan nilai jarak dan kecepatan = ");
+    scanf ("%d %d", &s2, &v2);
+   
 
     float V= (float) s1/t2;
     float S= (float) v1*t2;
